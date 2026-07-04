@@ -1,0 +1,21 @@
+{
+  "name": "plori",
+  "owner": {
+    "name": "plori",
+    "email": "dev@plori.ai",
+    "url": "https://plori.ai"
+  },
+  "metadata": {
+    "description": "plori: cloud computers for AI agents, delivered over one MCP URL.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "plori",
+      "source": "./plugins/plori",
+      "description": "Create and drive plori cloud agents (each an AI agent on its own cloud computer) over MCP.",
+      "category": "productivity",
+      "tags": ["mcp", "agents", "cloud", "remote", "coding-agent"]
+    }
+  ]
+}

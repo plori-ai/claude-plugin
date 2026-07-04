@@ -1,0 +1,13 @@
+{
+  "name": "plori",
+  "description": "Create and drive plori cloud agents (each an AI agent on its own cloud computer) over MCP. Bundles the plori skill so Claude knows the connect flow and the tool surface.",
+  "version": "0.1.0",
+  "author": {
+    "name": "plori",
+    "email": "dev@plori.ai",
+    "url": "https://plori.ai"
+  },
+  "homepage": "https://plori.ai",
+  "repository": "https://github.com/plori-ai/plori",
+  "license": "MIT"
+}
