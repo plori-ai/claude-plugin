@@ -1,7 +1,7 @@
 # plori Claude Code plugin
 
-A one-install plugin for [plori](https://plori.ai): cloud computers for AI agents, with
-persistent disks, real tools, and memory that survives between sessions.
+A one-install plugin for [plori](https://plori.ai): AI agents in persistent cloud
+environments with durable disks, real tools, and memory.
 
 Installing this plugin gives Claude Code two things at once:
 
@@ -29,7 +29,7 @@ Or add this marketplace directly, then install:
 ```
 
 The first call to a plori tool triggers the OAuth sign-in; or set `PLORI_API_KEY` for a
-key-based flow. Running an agent spends credits on your plori account.
+key-based flow. Running an agent spends your prepaid balance.
 
 ## What is inside
 
