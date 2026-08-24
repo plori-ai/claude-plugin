@@ -1,7 +1,7 @@
 {
   "name": "plori",
-  "description": "Create and drive plori cloud agents (each an AI agent on its own cloud computer) over MCP. Bundles the plori skill so Claude knows the connect flow and the tool surface.",
-  "version": "0.1.0",
+  "description": "Create and drive plori AI agents in persistent cloud environments over MCP. Bundles the plori skill so Claude knows the connect flow and the tool surface.",
+  "version": "0.1.1",
   "author": {
     "name": "plori",
     "email": "dev@plori.ai",
