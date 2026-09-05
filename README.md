@@ -15,21 +15,41 @@ Installing this plugin gives Claude Code two things at once:
 
 ## Install
 
-From the official directory (auto-available in Claude Code):
+In a Claude Code conversation, add this marketplace and install the plugin:
 
-```
-/plugin install plori@plori
-```
-
-Or add this marketplace directly, then install:
-
-```
+```text
 /plugin marketplace add plori-ai/claude-plugin
 /plugin install plori@plori
+/reload-plugins
 ```
 
-The first call to a plori tool triggers the OAuth sign-in; or set `PLORI_API_KEY` for a
-key-based flow. Running an agent spends your prepaid balance.
+The reload command applies the plugin in the current session. Then ask Claude to
+connect Plori. It follows the bundled skill and shows a short pairing code when the
+client supports it. Open the verification page on your computer or phone, sign in,
+and approve the connection. Running an agent spends your prepaid balance.
+
+For installation from a shell, run:
+
+```sh
+claude plugin marketplace add plori-ai/claude-plugin && claude plugin install plori@plori --scope user
+```
+
+Then type `/reload-plugins` in the Claude Code conversation.
+
+## Connect without installing a plugin
+
+Paste this into your Claude Code conversation:
+
+> Read https://plori.ai/.well-known/agent-skills/plori/SKILL.md and install/connect Plori over MCP.
+
+Claude reads the setup instructions and configures MCP if needed. If the new server
+has not loaded, type `/reload-plugins` when Claude asks, then continue in the same
+conversation. With pairing, open the short address Claude shows, enter the code,
+sign in, and approve. You can use a phone while Claude Code runs on a remote machine.
+No installed skill or plugin is required.
+
+Other MCP clients keep their ordinary OAuth or API-key authentication. See the
+[connection guide](https://plori.ai/mcp) for per-client setup.
 
 ## What is inside
 
