@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "plori: AI agents in persistent cloud environments, delivered over one MCP URL.",
-    "version": "0.1.3"
+    "version": "0.1.4"
   },
   "plugins": [
     {
