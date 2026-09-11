@@ -1,0 +1,7 @@
+[
+  {
+    "name": "plori-runs",
+    "command": "\"${CLAUDE_PLUGIN_ROOT}\"/scripts/plori-watch.sh",
+    "description": "Plori agent runs that finished or need your input"
+  }
+]
