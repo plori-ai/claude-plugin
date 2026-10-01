@@ -6,7 +6,7 @@
 # notification. When the plori CLI is absent or has no credentials, this script
 # writes one line to stderr and exits without printing anything to stdout.
 #
-# Requires the plori CLI 0.4.0 or later: curl -fsSL https://plori.ai/install.sh | sh
+# Requires the plori CLI 0.4.0 or later. Install steps: https://plori.ai/docs/cli
 
 set -u
 
@@ -15,7 +15,7 @@ note() {
 }
 
 if ! command -v plori >/dev/null 2>&1; then
-	note 'plori CLI not found on PATH. Install it with: curl -fsSL https://plori.ai/install.sh | sh'
+	note 'plori CLI not found on PATH. Install steps: https://plori.ai/docs/cli'
 	exit 0
 fi
 
