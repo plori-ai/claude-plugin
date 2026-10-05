@@ -1,7 +1,7 @@
 {
   "name": "plori",
   "description": "Delegate coding, research, and scheduled tasks to cloud AI agents with persistent files and memory. Connect through MCP.",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "author": {
     "name": "plori",
     "email": "dev@plori.ai",
